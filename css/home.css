@@ -1,0 +1,111 @@
+/* Sobre */
+
+.banner {
+  width: 100%;
+}
+
+.principal {
+  padding: 2rem 0;
+  background: var(--branco);
+  width: 95%;
+  margin: 0 auto;
+  font-size: 1.3rem;
+}
+
+.titulo-principal {
+  text-align: center;
+  /* em é usado para aumenta um texto proporcionalmente, nesse caso x2 */
+  font-size: 2.5rem;
+  margin: 0 0 1rem;
+  /* para limitar o float, essa é a parte do texto de sobre */
+  clear: left;
+  /* quando usamos rgba, podemos definir uma opacidade. o último número define quanto opaco ou não, os 3 primeiros, a cor do elemento */
+  color: rgba(0, 0, 0, 1);
+}
+
+.principal p {
+  margin: 0 0 1rem;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
+  font-style: italic;
+}
+
+.utensilios {
+  width: 15%;
+  max-width: 150px;
+  float: left;
+  margin: 0 1rem 1rem 0;
+}
+
+/* Mapa */
+
+.mapa {
+  padding: 2rem 0;
+  background: linear-gradient(var(--branco), var(--cinza-escuro));
+}
+
+.mapa p {
+  margin: 0 0 2rem;
+  text-align: center;
+}
+
+.mapa-conteudo {
+  width: 100%;
+  margin: 0;
+}
+
+/* Benefícios */
+
+.beneficios {
+  width: 100%;
+  padding: 2rem 0;
+  background: var(--cinza-escuro);
+}
+
+.conteudo-beneficios {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lista-beneficios {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
+.itens {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.itens:first-child {
+  font-weight: bold;
+}
+
+.itens:before {
+  content: "\2605";
+}
+
+.imagem-beneficios {
+  width: 60%;
+  max-width: 500px;
+  opacity: 1;
+  transition: 100ms;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 1);
+}
+
+.imagem-beneficios:hover {
+  opacity: 0.3;
+}
+
+.video {
+  width: 70%;
+  margin: 3rem auto;
+}
